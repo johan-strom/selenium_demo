@@ -15,14 +15,14 @@ public class SearchPage {
 
 	protected WebDriver driver;
 	
-	@Before
+	//@Before
 	public void setup() {
     	System.setProperty("webdriver.gecko.driver", "D:\\geckodriver\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.get("http://www.google.com");
 	}
 	
-	@After
+	//@After
 	public void teardown() {
 		driver.quit();
 	}

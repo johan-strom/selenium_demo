@@ -14,17 +14,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SeleniumTest extends SearchPage {
 	
-	@Test
+	//@Test
     public void testSearchCheese() {
 		
 		search("Cheese!");
         verifyResult("Cheese!");     
     }
 	
-	@Test
+	//@Test
     public void testSearchITHS() {
 		search("iths");
 		verifyResult("iths");
     }
+    
 }
 
